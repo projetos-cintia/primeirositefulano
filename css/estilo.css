@@ -1,0 +1,65 @@
+body{
+
+		background-image: url("../img/paisagem.jpg");	
+		background-repeat: round;
+		width: 80%;
+		margin-right: auto;
+		margin-left: auto;	
+			}
+
+h1,h2{
+		text-align: center;
+		color: #fff;
+		font-weight: bolder;			
+	}
+
+p{
+
+		color: #fff;
+		font-weight: bolder;
+		font-size: 20px;
+		text-align: justify;
+		
+
+}
+
+ul li{
+
+	text-decoration: underline;
+	color: #fff;
+	font-weight: bolder;
+
+	}
+
+figure{
+
+	text-align: center;
+				
+	}
+img{
+		width: 80%;
+		border: 5px solid #EE82EE;
+	}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
