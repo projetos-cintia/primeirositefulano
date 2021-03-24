@@ -1,65 +1,103 @@
+/* Aqui ficará o estilo do meu site */
 body{
+	background-image: url("../img/paisagem.jpg");
+	background-repeat: round;	
+	
+}
 
-		background-image: url("../img/paisagem.jpg");	
-		background-repeat: round;
-		width: 80%;
-		margin-right: auto;
-		margin-left: auto;	
-			}
-
-h1,h2{
-		text-align: center;
-		color: #fff;
-		font-weight: bolder;			
-	}
-
-p{
-
-		color: #fff;
-		font-weight: bolder;
-		font-size: 20px;
-		text-align: justify;
-		
+.container{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;	
+	text-align: center;	
 
 }
 
+
+h1,h2{
+	text-align: center;
+	color: #fff;
+	font-weight: bolder;			
+}
+
+p{
+	color: #fff;
+	font-weight: bolder;
+	font-size: 20px;
+	text-align: justify;
+
+}
+ul{
+	text-align: justify;
+}
 ul li{
 
 	text-decoration: underline;
 	color: #fff;
 	font-weight: bolder;
 
-	}
+}
 
 figure{
 
 	text-align: center;
-				
-	}
+	
+}
+
 img{
-		width: 80%;
-		border: 5px solid #EE82EE;
-	}
-a:link {
+
+	width: 70%;
+	border: 5px dashed #fff;
+
+}
+
+/* quando eu não cliquei ainda no link */
+a:link { 
   color: green;
   background-color: transparent;
   text-decoration: none;
 }
 
+/* fica com essa formatação depois que eu clico */
 a:visited {
   color: pink;
   background-color: transparent;
   text-decoration: none;
 }
 
+/* fica com essa formatação quando eu passo o mouse por cima*/
 a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
 }
 
+/* fica com essa formatação na ação do clique*/
 a:active {
   color: yellow;
   background-color: transparent;
   text-decoration: underline;
+}
+
+table {
+  
+  border-collapse: collapse;
+  width: 100%;
+  color: #fff;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 10px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.centro{
+  text-align: center;
+
 }
